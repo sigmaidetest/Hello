@@ -1,0 +1,91 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "c951cc1c-5b51-459a-bf53-ffafa78eb1cd": {
+        "id": "c951cc1c-5b51-459a-bf53-ffafa78eb1cd",
+        "parent": null,
+        "name": "Hello",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "aff58719-5c59-492c-8bee-7cf184b2f280",
+          "7bb33d40-acf1-419f-acb2-baa5e6d2f288"
+        ],
+        "isRemovable": false,
+        "filePath": "Hello"
+      },
+      "aff58719-5c59-492c-8bee-7cf184b2f280": {
+        "id": "aff58719-5c59-492c-8bee-7cf184b2f280",
+        "parent": "c951cc1c-5b51-459a-bf53-ffafa78eb1cd",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Hello/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      },
+      "7bb33d40-acf1-419f-acb2-baa5e6d2f288": {
+        "id": "7bb33d40-acf1-419f-acb2-baa5e6d2f288",
+        "parent": "c951cc1c-5b51-459a-bf53-ffafa78eb1cd",
+        "name": "hello.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Hello/hello.js",
+        "code": "",
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "c951cc1c-5b51-459a-bf53-ffafa78eb1cd",
+    "openFiles": [
+      "aff58719-5c59-492c-8bee-7cf184b2f280",
+      "7bb33d40-acf1-419f-acb2-baa5e6d2f288"
+    ],
+    "currentFileId": "7bb33d40-acf1-419f-acb2-baa5e6d2f288",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "Hello",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1554100677353
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "Hello",
+      "url": "https://github.com/sigmaidetest/Hello"
+    }
+  }
+}
